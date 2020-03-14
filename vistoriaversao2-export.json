@@ -1,0 +1,415 @@
+{
+  "usuarios" : {
+    "PiNVXtCTKoYJTCbl24TytHnvQYH2" : {
+      "Dados" : {
+        "Empresas" : {
+          "-0000000026->SFtAyHQqPJdC5ktK4BGlTnGFjGG3" : {
+            "Aparelho" : "Nome do Aparelho",
+            "Bairro" : "Nome do bairro",
+            "Bairro do Executor" : "Bairro do executor",
+            "CNPJ" : "Numero do CNPJ do executor",
+            "CREA" : "CREA",
+            "Cidade do Executor" : "Cidade do Executor",
+            "Endereço" : "Endereço do Executor",
+            "Executor" : "Nome do executor",
+            "Local do Aparelho" : "Nome do Local do Aparelho",
+            "Numero do Patrimonio" : "Numero do Patrimonio",
+            "Número do Endereço" : "Numero do Endereço",
+            "Potencia" : "Potencia",
+            "Responsavel Tecnico" : "Nome do Responsavel Tecnico",
+            "UF" : "UF",
+            "cidade" : "Nome da cidade",
+            "email" : "email",
+            "empresa" : "Nome da Empresa",
+            "endereço completo" : "Nome do Endereço",
+            "telefone" : "Numero do Telefone",
+            "userid" : "SFtAyHQqPJdC5ktK4BGlTnGFjGG3"
+          }
+        },
+        "Lista de Serviços" : {
+          "0000000600->VHmPMiQBbuQ3YaPd7Ybk4SXeSpv1" : {
+            "Lista de Serviços" : "Lista de Serviços",
+            "userid" : "VHmPMiQBbuQ3YaPd7Ybk4SXeSpv1"
+          }
+        },
+        "Serviços" : {
+          "0000000600->VHmPMiQBbuQ3YaPd7Ybk4SXeSpv1" : {
+            " verificação fluxo de gás" : "verificação do fluxo de gás.",
+            "Colocação de gás" : "Colocação de gás se nescessário.",
+            "Lavar" : "Lavar, bandeja e serpentina com remoção do Biofilme sem unso de corrosivos.",
+            "Limpar o gabinete" : "Limpar o gabinete do condicionador.",
+            "Limpeza dos filtros" : "Limpeza dos filtros e elementos filtrantes e ventiladores.",
+            "Limpeza e Sanitização" : "Limpeza e sanitização   dos Paineis e Filtors de Ar Condicinado.",
+            "Mediçao" : "Mediçao de amperagens dos compressores.",
+            "Troca de componentes" : "Troca de componenetes quando necessário, sempre com autorização, da direção.",
+            "Verificar a operação" : "Verificar a operação de drenajem de aguá.",
+            "Verificar a vedação" : "Verificar a vedação dos paineis de fechamento do gabinete.",
+            "Verificar e eliminar sujeiras" : "Verificar e eliminar sujeiras danos e corrosão no gabinete, serpentina  e bandeja.",
+            "Verificar o estado de conservação" : "Verificar o estado de conservação do isolamento termo acústico.",
+            "Verificação de Ruidos" : "Verificação de ruidos, vibrações, chave seletora, conexões de alimentação.",
+            "ajustes" : "verificação e ajustes dos componenetes elétricos.",
+            "fixação" : "verificação de fixação dos compressores",
+            "limpeza de serpentina" : "limpeza de serpentina quando necessário.",
+            "limpeza do painel de comando" : "limpeza do painel de comando, hélices e turbinas do motor ventilador.",
+            "lubrificação" : "lubrificação das buchas do motor ventilador.",
+            "serpentinas" : "limpezas das serpentinas com protutos biodegradaveis",
+            "userid" : "VHmPMiQBbuQ3YaPd7Ybk4SXeSpv1"
+          }
+        }
+      },
+      "users" : {
+        "69zVJw4IVgbFh0sqaMzAsdvyXhH2" : {
+          "email" : "editor@mail.com",
+          "firstLogin" : "8/26/2018 4:15:55 PM",
+          "isAdmin" : false,
+          "lastLogin" : "1/20/2019 5:20:18 PM",
+          "name" : "EditorAcc"
+        },
+        "FSPBFJndDrVOG16G6pu7cLq29lf2" : {
+          "lastLogin" : "10/14/2018 09:59:09"
+        },
+        "TPlW2t3nZjOnjGZza4UaWaAp0N62" : {
+          "email" : "tan@tan.com",
+          "firstLogin" : "08/26/2018 15:29:05",
+          "lastLogin" : "01/19/2019 22:51:19",
+          "name" : "tan",
+          "runlogs" : {
+            "maurosiena" : {
+              "08-27-2018 15:27:58" : {
+                "questionlogs" : {
+                  "08-27-2018 15:28:02" : {
+                    "correct" : false,
+                    "eliminated2" : false,
+                    "endTime" : "08/27/2018 15:28:04",
+                    "questionId" : 36,
+                    "questionTimeSpan" : "00:00:02.8321190",
+                    "reseached" : false,
+                    "researchTimeSpan" : "00:00:00",
+                    "skipped" : false,
+                    "startTime" : "08/27/2018 15:28:02"
+                  },
+                  "08-27-2018 15:28:37" : {
+                    "correct" : false,
+                    "eliminated2" : false,
+                    "endTime" : "08/27/2018 15:28:38",
+                    "questionId" : 97,
+                    "questionTimeSpan" : "00:00:00.2546740",
+                    "reseached" : false,
+                    "researchTimeSpan" : "00:00:00",
+                    "skipped" : true,
+                    "startTime" : "08/27/2018 15:28:37"
+                  },
+                  "08-27-2018 15:28:45" : {
+                    "correct" : false,
+                    "eliminated2" : false,
+                    "endTime" : "08/27/2018 15:30:27",
+                    "questionId" : 92,
+                    "questionTimeSpan" : "00:01:41.8043330",
+                    "reseached" : false,
+                    "researchTimeSpan" : "00:00:00",
+                    "skipped" : true,
+                    "startTime" : "08/27/2018 15:28:45"
+                  },
+                  "08-27-2018 15:32:19" : {
+                    "correct" : false,
+                    "eliminated2" : true,
+                    "endTime" : "08/27/2018 15:32:25",
+                    "questionId" : 33,
+                    "questionTimeSpan" : "00:00:05.8169690",
+                    "reseached" : false,
+                    "researchTimeSpan" : "00:00:00",
+                    "skipped" : true,
+                    "startTime" : "08/27/2018 15:32:19"
+                  },
+                  "08-27-2018 15:32:30" : {
+                    "correct" : false,
+                    "eliminated2" : true,
+                    "endTime" : "08/27/2018 15:32:34",
+                    "questionId" : 113,
+                    "questionTimeSpan" : "00:00:04.7393930",
+                    "reseached" : true,
+                    "researchTimeSpan" : "00:00:01.3363910",
+                    "skipped" : true,
+                    "startTime" : "08/27/2018 15:32:30"
+                  }
+                }
+              },
+              "08-28-2018 11:40:13" : {
+                "questionlogs" : {
+                  "08-28-2018 11:40:18" : {
+                    "correct" : false,
+                    "eliminated2" : true,
+                    "endTime" : "08/28/2018 11:41:20",
+                    "questionId" : 80,
+                    "questionTimeSpan" : "00:01:01.6380510",
+                    "reseached" : true,
+                    "researchTimeSpan" : "00:00:06.8780740",
+                    "skipped" : true,
+                    "startTime" : "08/28/2018 11:40:18"
+                  }
+                }
+              },
+              "08-31-2018 16:58:07" : {
+                "questionlogs" : {
+                  "08-31-2018 16:58:12" : {
+                    "correct" : false,
+                    "eliminated2" : true,
+                    "endTime" : "08/31/2018 16:58:22",
+                    "questionId" : 43,
+                    "questionTimeSpan" : "00:00:09.5193930",
+                    "reseached" : true,
+                    "researchTimeSpan" : "00:00:02.3060910",
+                    "skipped" : true,
+                    "startTime" : "08/31/2018 16:58:12"
+                  },
+                  "08-31-2018 16:58:27" : {
+                    "correct" : true,
+                    "eliminated2" : false,
+                    "endTime" : "08/31/2018 16:58:29",
+                    "questionId" : 44,
+                    "questionTimeSpan" : "00:00:02.1203050",
+                    "reseached" : false,
+                    "researchTimeSpan" : "00:00:00",
+                    "skipped" : false,
+                    "startTime" : "08/31/2018 16:58:27"
+                  }
+                }
+              },
+              "09-01-2018 16:59:12" : {
+                "questionlogs" : {
+                  "09-01-2018 16:59:16" : {
+                    "correct" : false,
+                    "eliminated2" : true,
+                    "endTime" : "09/01/2018 16:59:21",
+                    "questionId" : 88,
+                    "questionTimeSpan" : "00:00:05.9186600",
+                    "reseached" : false,
+                    "researchTimeSpan" : "00:00:00",
+                    "skipped" : true,
+                    "startTime" : "09/01/2018 16:59:16"
+                  }
+                }
+              },
+              "10-01-2018 17:45:18" : {
+                "endTime" : "10/01/2018 17:46:55",
+                "runTime" : "00:01:36.6319400",
+                "score" : "946.8101",
+                "startTime" : "10/01/2018 17:45:18"
+              }
+            }
+          },
+          "strikelogs" : {
+            "maurosiena" : {
+              "36" : {
+                "lastTime" : "08/27/2018 15:28:05",
+                "nextTime" : "08/27/2018 15:28:05",
+                "questionId" : 36,
+                "strike" : 0
+              },
+              "44" : {
+                "lastTime" : "08/31/2018 16:58:29",
+                "nextTime" : "08/31/2018 17:13:29",
+                "questionId" : 44,
+                "strike" : 1
+              },
+              "92" : {
+                "lastTime" : "08/27/2018 15:29:37",
+                "nextTime" : "08/27/2018 15:29:37",
+                "questionId" : 92,
+                "strike" : 0
+              }
+            }
+          }
+        },
+        "W9RfVhLOgGPGOsDiDyiSsRfhoe73" : {
+          "lastLogin" : "10/12/2018 11:26:28",
+          "runlogs" : {
+            "maurosiena" : {
+              "10-01-2018 19:51:51" : {
+                "questionlogs" : {
+                  "10-01-2018 19:52:06" : {
+                    "correct" : true,
+                    "eliminated2" : false,
+                    "endTime" : "10/01/2018 19:52:29",
+                    "questionId" : 10,
+                    "questionTimeSpan" : "00:00:22.6335000",
+                    "reseached" : false,
+                    "researchTimeSpan" : "00:00:00",
+                    "skipped" : false,
+                    "startTime" : "10/01/2018 19:52:06"
+                  }
+                }
+              },
+              "10-02-2018 22:15:37" : {
+                "questionlogs" : {
+                  "10-02-2018 22:16:22" : {
+                    "correct" : true,
+                    "eliminated2" : false,
+                    "endTime" : "10/02/2018 22:16:38",
+                    "questionId" : 4,
+                    "questionTimeSpan" : "00:00:15.6415360",
+                    "reseached" : false,
+                    "researchTimeSpan" : "00:00:00",
+                    "skipped" : false,
+                    "startTime" : "10/02/2018 22:16:22"
+                  },
+                  "10-02-2018 22:17:08" : {
+                    "correct" : true,
+                    "eliminated2" : false,
+                    "endTime" : "10/02/2018 22:17:24",
+                    "questionId" : 15,
+                    "questionTimeSpan" : "00:00:15.8781460",
+                    "reseached" : false,
+                    "researchTimeSpan" : "00:00:00",
+                    "skipped" : false,
+                    "startTime" : "10/02/2018 22:17:08"
+                  },
+                  "10-02-2018 22:18:51" : {
+                    "correct" : true,
+                    "eliminated2" : false,
+                    "endTime" : "10/02/2018 22:19:05",
+                    "questionId" : 1,
+                    "questionTimeSpan" : "00:00:14.2087560",
+                    "reseached" : false,
+                    "researchTimeSpan" : "00:00:00",
+                    "skipped" : false,
+                    "startTime" : "10/02/2018 22:18:51"
+                  }
+                }
+              },
+              "10-03-2018 20:04:28" : {
+                "questionlogs" : {
+                  "10-03-2018 20:04:31" : {
+                    "correct" : false,
+                    "eliminated2" : false,
+                    "endTime" : "10/03/2018 20:04:35",
+                    "questionId" : 74,
+                    "questionTimeSpan" : "00:00:03.9918880",
+                    "reseached" : false,
+                    "researchTimeSpan" : "00:00:00",
+                    "skipped" : false,
+                    "startTime" : "10/03/2018 20:04:31"
+                  }
+                }
+              },
+              "10-03-2018 20:48:51" : {
+                "questionlogs" : {
+                  "10-03-2018 20:48:55" : {
+                    "correct" : false,
+                    "eliminated2" : false,
+                    "endTime" : "10/03/2018 20:48:57",
+                    "questionId" : 88,
+                    "questionTimeSpan" : "00:00:02.0606350",
+                    "reseached" : false,
+                    "researchTimeSpan" : "00:00:00",
+                    "skipped" : false,
+                    "startTime" : "10/03/2018 20:48:55"
+                  },
+                  "10-03-2018 20:50:30" : {
+                    "correct" : false,
+                    "eliminated2" : false,
+                    "endTime" : "10/03/2018 20:51:17",
+                    "questionId" : 88,
+                    "questionTimeSpan" : "00:00:46.6855710",
+                    "reseached" : false,
+                    "researchTimeSpan" : "00:00:00",
+                    "skipped" : true,
+                    "startTime" : "10/03/2018 20:50:30"
+                  }
+                }
+              },
+              "10-04-2018 07:35:49" : {
+                "questionlogs" : {
+                  "10-04-2018 07:36:02" : {
+                    "correct" : false,
+                    "eliminated2" : false,
+                    "endTime" : "10/04/2018 07:36:04",
+                    "questionId" : 58,
+                    "questionTimeSpan" : "00:00:02.4167180",
+                    "reseached" : false,
+                    "researchTimeSpan" : "00:00:00",
+                    "skipped" : false,
+                    "startTime" : "10/04/2018 07:36:02"
+                  },
+                  "10-04-2018 07:36:20" : {
+                    "correct" : false,
+                    "eliminated2" : false,
+                    "endTime" : "10/04/2018 07:38:21",
+                    "questionId" : 37,
+                    "questionTimeSpan" : "00:02:00.8601290",
+                    "reseached" : false,
+                    "researchTimeSpan" : "00:00:00",
+                    "skipped" : true,
+                    "startTime" : "10/04/2018 07:36:20"
+                  }
+                }
+              }
+            }
+          },
+          "strikelogs" : {
+            "maurosiena" : {
+              "1" : {
+                "lastTime" : "10/02/2018 22:19:05",
+                "nextTime" : "10/02/2018 22:34:05",
+                "questionId" : 1,
+                "strike" : 1
+              },
+              "4" : {
+                "lastTime" : "10/02/2018 22:16:38",
+                "nextTime" : "10/02/2018 22:31:38",
+                "questionId" : 4,
+                "strike" : 1
+              },
+              "10" : {
+                "lastTime" : "10/01/2018 19:52:29",
+                "nextTime" : "10/01/2018 20:07:29",
+                "questionId" : 10,
+                "strike" : 1
+              },
+              "15" : {
+                "lastTime" : "10/02/2018 22:17:24",
+                "nextTime" : "10/02/2018 22:32:24",
+                "questionId" : 15,
+                "strike" : 1
+              },
+              "37" : {
+                "lastTime" : "10/04/2018 07:36:22",
+                "nextTime" : "10/04/2018 07:36:22",
+                "questionId" : 37,
+                "strike" : 0
+              },
+              "58" : {
+                "lastTime" : "10/04/2018 07:36:04",
+                "nextTime" : "10/04/2018 07:36:04",
+                "questionId" : 58,
+                "strike" : 0
+              },
+              "74" : {
+                "lastTime" : "10/03/2018 20:04:36",
+                "nextTime" : "10/03/2018 20:04:36",
+                "questionId" : 74,
+                "strike" : 0
+              },
+              "88" : {
+                "lastTime" : "10/03/2018 20:50:32",
+                "nextTime" : "10/03/2018 20:50:32",
+                "questionId" : 88,
+                "strike" : 0
+              }
+            }
+          }
+        },
+        "XJBsEmGOI9hAZ7FJFFogeEfIHIw1" : {
+          "email" : "123@gmail.com",
+          "firstLogin" : "01/20/2019 17:32:05",
+          "isAdmin" : false,
+          "lastLogin" : "01/20/2019 17:32:05",
+          "name" : "123456"
+        },
+        "vFaLYyVJWaV8IyjivOzcYM572Hl1" : {
+          "lastLogin" : "01/20/2019 17:29:53"
+        }
+      }
+    }
+  }
+}
