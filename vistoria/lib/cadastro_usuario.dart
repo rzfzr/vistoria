@@ -71,11 +71,7 @@ class _CadastroUsuarioState extends State<CadastroUsuario> {
 
         Navigator.pushNamedAndRemoveUntil(context, "/home", (_)=>false);
 
-        /*Navigator.push(context,
-          MaterialPageRoute(
-              builder: (context) => Home()
-          )
-        );*/
+
 
 
 
