@@ -69,7 +69,13 @@ class _CadastroUsuarioState extends State<CadastroUsuario> {
         
         db.collection("usuarios").document(FirebaseUser.user.uid).setData( usuario.toMap() );
 
-        Navigator.pushNamedAndRemoveUntil(context, "/home", (_) => false);
+        Navigator.pushNamedAndRemoveUntil(context, "/home", (_)=>false);
+
+        /*Navigator.push(context,
+          MaterialPageRoute(
+              builder: (context) => Home()
+          )
+        );*/
 
 
 
@@ -96,7 +102,6 @@ class _CadastroUsuarioState extends State<CadastroUsuario> {
                   children: <Widget>[
                     Padding(
                       padding: EdgeInsets.only(bottom: 32),
-                      //aqui coloco a imagem do usuario
                     ),
                     Padding(
                       padding: EdgeInsets.only(bottom: 8.0),
