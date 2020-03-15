@@ -94,7 +94,7 @@ class _LoginState extends State<Login> {
               children: <Widget>[
                 Padding(
                   padding: EdgeInsets.only(bottom: 32),
-                  child: Image.asset("imagens/CWR.png", width: 200, height: 150,),
+                  child: Image.asset("imagens/logo.png", width: 200, height: 150,),
                 ),
                 Padding(
                   padding: EdgeInsets.only(bottom: 8.0),
