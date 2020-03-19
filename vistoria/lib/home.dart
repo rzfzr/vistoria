@@ -55,7 +55,7 @@ class _HomeState extends State<Home> {
     } else {
       tempSearchStore = [];
       queryResultSet.forEach((element) {
-        if (element['Clientes'].startsWith(capitalizedValue)) {
+        if (element['Nome'].startsWith(capitalizedValue)) {
           setState(() {
             tempSearchStore.add(element);
           });
@@ -129,7 +129,7 @@ Widget buildResultCard(data) {
       elevation: 2.0,
       child: Container(
           child: Center(
-              child: Text(data['Clientes'],
+              child: Text(data['Nome'],
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.black,
