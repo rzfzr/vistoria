@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:vistoriaversao2/cadastro_usuario.dart';
+import 'package:vistoriaversao2/empresaView.dart';
 import 'package:vistoriaversao2/home.dart';
 
 import 'login.dart';
@@ -24,6 +25,11 @@ class RouteGenerator{
         return MaterialPageRoute(
             builder: (_) => Home()
         );
+      case "/empresaView":
+        return MaterialPageRoute(
+            builder: (_) => EmpresaView()
+        );
+
       default:
         _erroRota();
 

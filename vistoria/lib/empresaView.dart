@@ -5,12 +5,12 @@ import 'package:flutter/material.dart';
 import 'login.dart';
 import 'searchservice.dart';
 
-class Home extends StatefulWidget {
+class EmpresaView extends StatefulWidget {
   @override
-  _HomeState createState() => _HomeState();
+  _EmpresaViewState createState() => _EmpresaViewState();
 }
 
-class _HomeState extends State<Home> {
+class _EmpresaViewState extends State<EmpresaView> {
   List<String> itensMenu = ["Configurações", "Deslogar"];
 
   _escolhaMenuItem(String itemEscolhido) {
@@ -74,7 +74,9 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Vistoria de Ar Condicionado"),
+
         actions: <Widget>[
+
           PopupMenuButton<String>(
             onSelected: _escolhaMenuItem,
             itemBuilder: (context) {
@@ -88,77 +90,76 @@ class _HomeState extends State<Home> {
           )
         ],
       ),
-      body: ListView(children: <Widget>[
-        Padding(
-          padding: const EdgeInsets.all(10.0),
-          child: TextField(
-            onChanged: (val) {
-              initiateSearch(val);
-            },
-            decoration: InputDecoration(
-                prefixIcon: IconButton(
-                  color: Colors.black,
-                  icon: Icon(Icons.arrow_back),
-                  iconSize: 20.0,
-                  onPressed: () {
-                    Navigator.of(context).pop();
-                  },
+      body: Container(
+
+        padding: EdgeInsets.all(16),
+        child: Center(
+          child: SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: <Widget>[
+                Padding(
+                  padding: EdgeInsets.only(bottom: 32),
                 ),
-                contentPadding: EdgeInsets.only(left: 25.0),
-                hintText: 'Pesquisar por Nome',
-                border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(4.0))),
+                Padding(
+                  padding: EdgeInsets.only(bottom: 8.0),
+                  child: Text(
+                    'Hello! How are you?',
+                    textAlign: TextAlign.center,
+
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                  )
+                ),
+                Padding(
+                  padding: EdgeInsets.only(bottom: 8.0),
+
+                ),
+
+                Padding(
+                  padding: EdgeInsets.only(top: 16, bottom: 10),
+                  child: RaisedButton(
+                    child: Text(
+                      "Nova Vistoria",
+                      style: TextStyle(color: Colors.white, fontSize: 20),
+                    ),
+                    color: Colors.indigo,
+                    padding: EdgeInsets.fromLTRB(32, 16, 32, 16),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(32)
+                    ),
+                  ),
+
+                ), Padding(
+                  padding: EdgeInsets.only(top: 16, bottom: 10),
+                  child: RaisedButton(
+                    child: Text(
+                      "Nova Vistoria",
+                      style: TextStyle(color: Colors.white, fontSize: 20),
+                    ),
+                    color: Colors.indigo,
+                    padding: EdgeInsets.fromLTRB(32, 16, 32, 16),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(32)
+                    ),
+                  ),
+
+                ),
+
+              ],
+            ),
           ),
         ),
-        SizedBox(height: 10.0),
-        GridView.count(
-            padding: EdgeInsets.only(left: 10.0, right: 10.0),
-            crossAxisCount: 2,
-            crossAxisSpacing: 4.0,
-            mainAxisSpacing: 4.0,
-            primary: false,
-            shrinkWrap: true,
-            children: tempSearchStore.map((element) {
-              return buildResultCard(element, context);
-            }).toList())
-      ],
       ),
+
+
+
+
     );
   }
 }
 
-Widget buildResultCard(data,BuildContext context) {
-  return
-
-
-    Card(
-      child: new InkWell(
-        onTap: () {
-          print("tapped at " + data['Nome']);
-
-          Navigator.pushNamedAndRemoveUntil(context, "/empresaView", (_)=>false);
-
-
-
-        },
-        child: Container(
-          width: 100.0,
-          height: 100.0,
-
-            child: Center(
-                child: Text(data['Nome'],
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 20.0,
-                  ),
-                )
-            )
-        ),
-      ),
-    );
-
-    Card(
+Widget buildResultCard(data) {
+  return Card(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
       elevation: 2.0,
       child: Container(
@@ -173,7 +174,4 @@ Widget buildResultCard(data,BuildContext context) {
           )
       )
   );
-
-
-
 }
