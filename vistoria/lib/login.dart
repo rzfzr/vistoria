@@ -52,7 +52,7 @@ class _LoginState extends State<Login> {
         email: usuario.email, password: usuario.senha)
     
     .then((firebaseUser){
-      Navigator.pushReplacementNamed(context, "/home");
+     // Navigator.pushReplacementNamed(context, "/home");
 
     }).catchError((error){
       setState(() {
@@ -142,6 +142,7 @@ class _LoginState extends State<Login> {
                     ),
                     onPressed: (){
                       _validarCampos();
+                      Navigator.pushNamed(context, '/home');
                     },
                   ),
 
@@ -153,11 +154,7 @@ class _LoginState extends State<Login> {
                       style: TextStyle(color: Colors.white),
                     ),
                     onTap: (){
-                      Navigator.push(context,
-                          MaterialPageRoute(
-                            builder: (context) => CadastroUsuario()
-                          )
-                      );
+                      Navigator.pushNamed(context, '/home');
                     },
                   ),
                 ),

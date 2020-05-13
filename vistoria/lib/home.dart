@@ -11,13 +11,10 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  List<String> itensMenu = ["Configurações", "Deslogar"];
+  List<String> itensMenu = ["Deslogar"];
 
   _escolhaMenuItem(String itemEscolhido) {
     switch (itemEscolhido) {
-      case "Configurações":
-        print("Configurações");
-        break;
       case "Deslogar":
         _deslogarUsuario();
         break;

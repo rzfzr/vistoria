@@ -10,14 +10,39 @@ class EmpresaView extends StatefulWidget {
   _EmpresaViewState createState() => _EmpresaViewState();
 }
 
+class ScreenArguments {
+  final String title;
+  final String message;
+
+  ScreenArguments(this.title, this.message);
+}
+
+class ExtractArgumentsScreen extends StatelessWidget {
+static const routeName = '/extractArguments';
+
+@override
+Widget build(BuildContext context) {
+
+  final ScreenArguments args = ModalRoute.of(context).settings.arguments;
+
+  return Scaffold(
+    appBar: AppBar(
+      title: Text(args.title),
+    ),
+    body: Center(
+      child: Text(args.message),
+    ),
+  );
+}
+}
+
+
+
 class _EmpresaViewState extends State<EmpresaView> {
-  List<String> itensMenu = ["Configurações", "Deslogar"];
+  List<String> itensMenu = ["Deslogar"];
 
   _escolhaMenuItem(String itemEscolhido) {
     switch (itemEscolhido) {
-      case "Configurações":
-        print("Configurações");
-        break;
       case "Deslogar":
         _deslogarUsuario();
         break;
@@ -98,22 +123,7 @@ class _EmpresaViewState extends State<EmpresaView> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
-                Padding(
-                  padding: EdgeInsets.only(bottom: 32),
-                ),
-                Padding(
-                  padding: EdgeInsets.only(bottom: 8.0),
-                  child: Text(
-                    'Hello! How are you?',
-                    textAlign: TextAlign.center,
 
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
-                  )
-                ),
-                Padding(
-                  padding: EdgeInsets.only(bottom: 8.0),
-
-                ),
 
                 Padding(
                   padding: EdgeInsets.only(top: 16, bottom: 10),
@@ -121,12 +131,24 @@ class _EmpresaViewState extends State<EmpresaView> {
                     child: Text(
                       "Nova Vistoria",
                       style: TextStyle(color: Colors.white, fontSize: 20),
+
                     ),
                     color: Colors.indigo,
                     padding: EdgeInsets.fromLTRB(32, 16, 32, 16),
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(32)
                     ),
+                    onPressed: (){
+                      Navigator.pushNamed(
+                        context,
+                        ExtractArgumentsScreen.routeName,
+                        arguments: ScreenArguments(
+                          'Extract Arguments Screen',
+                          'This message is extracted in the build method.',
+                        ),
+                      );
+
+                    },
                   ),
 
                 ), Padding(
