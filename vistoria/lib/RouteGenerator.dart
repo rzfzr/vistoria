@@ -30,6 +30,8 @@ class RouteGenerator{
             builder: (_) => EmpresaView()
         );
 
+
+
       default:
         _erroRota();
 

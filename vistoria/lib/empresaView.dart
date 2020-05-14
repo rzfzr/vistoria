@@ -10,33 +10,6 @@ class EmpresaView extends StatefulWidget {
   _EmpresaViewState createState() => _EmpresaViewState();
 }
 
-class ScreenArguments {
-  final String title;
-  final String message;
-
-  ScreenArguments(this.title, this.message);
-}
-
-class ExtractArgumentsScreen extends StatelessWidget {
-static const routeName = '/extractArguments';
-
-@override
-Widget build(BuildContext context) {
-
-  final ScreenArguments args = ModalRoute.of(context).settings.arguments;
-
-  return Scaffold(
-    appBar: AppBar(
-      title: Text(args.title),
-    ),
-    body: Center(
-      child: Text(args.message),
-    ),
-  );
-}
-}
-
-
 
 class _EmpresaViewState extends State<EmpresaView> {
   List<String> itensMenu = ["Deslogar"];
@@ -138,17 +111,7 @@ class _EmpresaViewState extends State<EmpresaView> {
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(32)
                     ),
-                    onPressed: (){
-                      Navigator.pushNamed(
-                        context,
-                        ExtractArgumentsScreen.routeName,
-                        arguments: ScreenArguments(
-                          'Extract Arguments Screen',
-                          'This message is extracted in the build method.',
-                        ),
-                      );
-
-                    },
+                   
                   ),
 
                 ), Padding(
